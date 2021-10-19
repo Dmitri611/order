@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.list__item_font {
+    font-family: 'Georama';
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 2.5px;
+}
+
+.heading_font {
+    font-size: 30px;
+    letter-spacing: 2.5px;
+}
+
+.list__item_desc_font {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 2.5px;
+    font-weight: 5px;
+    color:rgb(4, 23, 107);
+}
+
+.sec3_p {
+    font-family: 'Roboto';
+    font-size: 23px;
+    font-style: italic;
+    letter-spacing: 2.5px;
+    font-weight: 5px;
+    color:rgb(4, 23, 107);
+}
+
+.heading_def_font {
+    font-family: 'Roboto';
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2.5px;
+    font-weight: 5px;
+    color:rgb(4, 23, 107);
+}
+
+.btn_font {
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2.5px;
+    font-weight: 5px;
+    color:white;
+}
+
+.btn_font:hover {
+    color:aqua;
+    transition: 1s linear;
+}
+
+.form__logo_font {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2.5px;
+    font-weight: 5px;
+    color: black;
+}
+
+.form_sec1_label_font {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: normal;
+    font-style:normal;
+    letter-spacing: 2.5px;
+    font-weight: 5px;
+    color: black;
+}
+
+.form_sec1_input_font {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight:bold;
+    font-style: italic;
+    letter-spacing: 2.5px;
+    font-weight: 5px;
+    color: black;
+}
+
+.form_sec2_item_p_font {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    font-weight: 5px;
+    color: black;
+}
+
+.table_font {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    letter-spacing: 2.5px;
+    font-weight: 5px;
+    color: gray;
+}

@@ -1,0 +1,196 @@
+@import url('./fonts.css');
+
+body {
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 1920px;
+    background-color: aqua;
+}
+
+.wrapper {
+    width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+}
+
+.active a{
+    color:crimson;
+    cursor: default;
+}
+
+.header__wrapper {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.navigation {
+    display: flex;
+    width: 1400px;
+}
+
+.nav__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.nav__list__item {
+    display: flex;
+}
+
+.nav__list__item:hover a {
+    color: crimson;
+    transition: 0.3s linear
+}
+
+.main {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    background-image: url('../img/3.png');
+    background-repeat: no-repeat;
+    height: 1270px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 950px;
+    height: 1170px;
+    background-color:white;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.form__logo {
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.form_sec1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.form_sec1_input_div {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.form_sec1_input {
+    display: flex;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+.form_sec2_input_div {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    height: 160px;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.form_sec2_item {
+    display: flex;
+    flex-direction: row;
+}
+
+.form_sec2_item_p {
+    padding-left: 15px;
+}
+
+.button_a {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.btn_style {
+    width: 180px;
+    height: 40px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+}
+
+.btn_style_form {
+    width: 120px;
+    height: 30px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn_style_form_danger {
+    width: 120px;
+    height: 30px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn_style_form_danger:hover {
+    width: 122px;
+    height: 32px;
+}
+
+.btn_style_form:hover {
+    width: 122px;
+    height: 32px;
+}
+
+.btn_style:hover {
+    width: 182px;
+    height: 42px;
+    background-color: blue;
+    transition: 0.3s linear;
+}
+
+.form_line_div {
+    padding-top: 15px;
+}
+
+.form_line {
+    width: 700px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.form_sec1_select {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.form_sec1_select3 {
+    width: 200px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+.form_btns_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}

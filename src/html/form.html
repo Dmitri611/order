@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>Форма</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="navigation">
+                    <ul class="nav__list">
+                        <li class="nav__list__item list__item_font"><a href="../../index.html">Главная страница</a></li>
+                        <li class="nav__list__item list__item_font"><a href="../html/table.html">Таблица</a></li>
+                        <li class="nav__list__item list__item_font active"><a href="../html/form.html">Форма</a></li>
+                        <li class="nav__list__item list__item_font"><a href="../html/picture.html">Картинка</a></li>
+                        <li class="nav__list__item list__item_font"><a href="../html/timer.html">Таймер</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+        <form class="form" action="mailto:2013@ya.ru">
+            <div class="form_container">
+                <div class="form__logo">
+                    <h2 class="form__logo_font">Социальный опрос</h2>
+                </div>
+                <div class="form_line_div">
+                    <div class="form_line"></div>
+                </div>
+                <div class="form_sec1">
+                    <label class="form_sec1_label_font" for="text">ФИО(Фамилия Имя Отчество)</label>
+                    <div class="form_sec1_input_div">
+                        <input class="form_sec1_input form_sec1_input_font" type="text" name="name">
+                    </div>
+                </div>
+                <div class="form_sec1">
+                    <label class="form_sec1_label_font" for="text">Почему вы любите проводить время в интернете?</label>
+                    <div class="form_sec2_input_div">
+                        <div class="form_sec2_item">
+                            <input type="radio" name="choice1" value="info">
+                            <div class="form_sec2_item_p">
+                                <p class="form_sec2_item_p_font">Mнoгo интересной информации</p>
+                            </div>
+                        </div>
+                        <div class="form_sec2_item">
+                            <input type="radio" name="choice1" value="picture">
+                            <div class="form_sec2_item_p">
+                                <p class="form_sec2_item_p_font">Mнoгo картинок, аудио и видео информации</p>
+                            </div>
+                        </div>
+                        <div class="form_sec2_item">
+                            <input type="radio" name="choice1" value="communication">
+                            <div class="form_sec2_item_p">
+                                <p class="form_sec2_item_p_font">Общение с людьми</p>
+                            </div>
+                        </div>
+                        <div class="form_sec2_item">
+                            <input type="radio" name="choice1" value="free_time">
+                            <div class="form_sec2_item_p">
+                                <p class="form_sec2_item_p_font">Cnocoб проведения досуга</p>
+                            </div>
+                        </div>
+                        <div class="form_sec2_item">
+                            <input type="radio" name="choice1" value="other">
+                            <div class="form_sec2_item_p">
+                                <p class="form_sec2_item_p_font">Другое</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_sec1">
+                    <label class="form_sec1_label_font" for="text">Какую ОС вы используете?</label>
+                    <div class="form_sec1_input_div">
+                        <select class="form_sec1_select" name="select" size="1">
+                            <option VALUE="1"><p>Windows 7</p>
+                            <option VALUE ="2"><p>Windows 8</p>
+                            <option VALUE ="3"><p>Windows 10</p>
+                            <option VALUE ="4"><p>IoS</p>
+                            <option value="5"><p>Linux</p>
+                        </select>
+                    </div>
+                </div>
+                <div class="form_sec1">
+                    <label class="form_sec1_label_font" for="text">Вам нравится ваша ОС?</label>
+                    <div class="form_sec1_input_div">
+                        <select class="form_sec1_select" name="select" size="2">
+                            <option VALUE="yes"><p>Да</p>
+                            <option VALUE ="no"><p>Нет</p>
+                        </select>
+                    </div>
+                </div>
+                <div class="form_sec1">
+                    <label class="form_sec1_label_font" for="text">Как бы вы оценили информацию содержащую на интернет просторах?</label>
+                    <div class="form_sec1_input_div">
+                        <select class="form_sec1_select3" name="select" size="5">
+                            <option VALUE="1"><p>Отлично</p>
+                            <option VALUE ="2"><p>Хорошо</p>
+                            <option VALUE ="3"><p>Средне</p>
+                            <option VALUE ="4"><p>Ниже среднего</p>
+                            <option VALUE ="5"><p>Плохо</p>
+                        </select>
+                    </div>
+                </div>
+                <div class="form_sec1">
+                    <label class="form_sec1_label_font" for="text">Оставьте ваш комментарий</label>
+                    <div class="form_sec1_input_div">
+                        <textarea name="comment" rows=11 cols=60></textarea>
+                    </div>
+                </div>
+                <div class="form_sec1">
+                    <label class="form_sec1_label_font" for="text">Хотите ли вы отправить информацию?</label>
+                    <div class="form_sec1_input_div">
+                        <div class="form_btns_div">
+                            <input class="btn_style_form" type="submit"></input>
+                            <input class="btn_style_form_danger" type="reset"></input>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="button_a">
+            <button class="btn_style">
+                <a class="btn_font" href="../../index.html">Вернуться на главную страницу</a>
+            </button>
+        </div>
+        </main>
+    </div>
+</body>
+</html>

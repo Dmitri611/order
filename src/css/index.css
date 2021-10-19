@@ -1,0 +1,148 @@
+@import url('./fonts.css');
+
+body {
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 1920px;
+    background-color: aqua;
+}
+
+.wrapper {
+    width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+}
+
+.active a{
+    color:crimson;
+    cursor: default;
+}
+
+.header__wrapper {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.navigation {
+    display: flex;
+    width: 1400px;
+}
+
+.nav__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.nav__list__item {
+    display: flex;
+}
+
+.nav__list__item:hover a {
+    color: crimson;
+    transition: 0.3s linear
+}
+
+.line {
+    width: 1400px;
+    height: 2px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.line_div {
+    padding-left: 16px;
+}
+
+.main {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    background-image: url('../img/3.png');
+    background-repeat: no-repeat;
+}
+
+.heading {
+    display: flex;
+    padding-top: 10px;
+}
+
+.heading__padding {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.image {
+    padding-top: 20px;
+    display: flex;
+    width: 500px;
+    height: 500px;
+
+}
+
+.description {
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+    padding-left: 500px;
+    width: 700px;
+}
+
+.description__text {
+    display: flex;
+}
+
+.nav__list__desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__list__desc__item {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.section3 {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.line_div2 {
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.sec3_desc {
+    padding-top: 20px;
+}
+
+.definition {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+}
+
+.definition__heading {
+    padding-left: 550px;
+}
+
+.def_marq {
+    padding-top: 30px;
+}
+
+.data_work {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    padding-left: 100px;
+}

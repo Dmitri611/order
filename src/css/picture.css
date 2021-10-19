@@ -1,0 +1,90 @@
+@import url('./fonts.css');
+
+body {
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 1920px;
+    background-color: aqua;
+}
+
+.wrapper {
+    width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+}
+
+.active a{
+    color:crimson;
+    cursor: default;
+}
+
+.header__wrapper {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.navigation {
+    display: flex;
+    width: 1400px;
+}
+
+.nav__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.nav__list__item {
+    display: flex;
+}
+
+.nav__list__item:hover a {
+    color: crimson;
+    transition: 0.3s linear
+}
+
+.main {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    background-image: url('../img/3.png');
+    background-repeat: no-repeat;
+    height: 879px;
+}
+
+.picture_img {
+    display: flex;
+    padding-left: 200px;
+}
+
+.image {
+    width: 1028px;
+    height: 610px;
+}
+
+.button_a {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 600px;
+}
+
+.btn_style {
+    width: 180px;
+    height: 40px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+}
+
+.btn_style:hover {
+    width: 182px;
+    height: 42px;
+    background-color: blue;
+    transition: 0.3s linear;
+}
